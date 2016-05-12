@@ -8,7 +8,7 @@ var DVNA = e();
 
 // TODO: Handle ENOENT error exception when the flag isn't loaded as this will crash node otherwise
 DVNA.get('/', function(req, res){
-  var filePath = p.join(__dirname, '/' + req.query.traverse);
+  var filePath = p.join(__dirname, '/' + javascript&#x58document;alert&#40;1&#41;;
   var readStream = fs.createReadStream(filePath);
   readStream.pipe(res);
 });
